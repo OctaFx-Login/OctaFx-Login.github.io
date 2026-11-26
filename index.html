@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OctaFX Login - Account Access and Platform Overview</title>
+    <meta name="description" content="Learn about OctaFX Login, profile access, trading accounts, OctaTrader, MetaTrader platforms, and password recovery.">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/jpeg" href="octafx-login-favicon.jfif">
+
+    <style>
+        :root {
+            --purple: #6c39f4;
+            --purple-dark: #35128b;
+            --purple-soft: #f1edff;
+            --ink: #171329;
+            --muted: #625d76;
+            --white: #ffffff;
+            --border: #e8e3f5;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f8f7fc;
+            color: var(--ink);
+            line-height: 1.7;
+        }
+
+        .site-header {
+            width: 100%;
+            padding: 18px 5%;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .site-logo {
+            width: 54px;
+            height: 54px;
+            object-fit: contain;
+        }
+
+        .brand-name {
+            font-size: 25px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--purple-dark);
+        }
+
+        .banner {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #eee9ff;
+        }
+
+        .banner img {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-height: none;
+            object-fit: contain;
+            border-radius: 0;
+        }
+
+        .container {
+            width: min(1120px, 92%);
+            margin: 0 auto;
+            padding: 34px 0 60px;
+        }
+
+        .intro {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 26px rgba(60, 30, 130, 0.05);
+        }
+
+        h1 {
+            color: var(--purple-dark);
+            font-size: clamp(30px, 4vw, 42px);
+            line-height: 1.2;
+            margin: 0 0 18px;
+        }
+
+        h2 {
+            font-size: 26px;
+            color: var(--purple-dark);
+            margin: 36px 0 14px;
+        }
+
+        h3 {
+            font-size: 19px;
+            margin: 0 0 10px;
+            color: var(--purple-dark);
+        }
+
+        p {
+            margin: 0 0 15px;
+            color: var(--muted);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin: 24px 0 32px;
+        }
+
+        .feature-card {
+            padding: 23px;
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(60, 30, 130, 0.04);
+        }
+
+        .feature-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            margin-bottom: 14px;
+            border-radius: 13px;
+            background: var(--purple-soft);
+            color: var(--purple);
+            font-size: 22px;
+        }
+
+        .content-section {
+            margin-top: 24px;
+            padding: 26px 30px;
+            border: 1px solid var(--border);
+            background: #ffffff;
+            border-radius: 16px;
+        }
+
+        .steps {
+            padding-left: 22px;
+            color: var(--muted);
+        }
+
+        .steps li {
+            margin-bottom: 9px;
+        }
+
+        .note {
+            background: var(--purple-soft);
+            border-left: 4px solid var(--purple);
+            padding: 16px 18px;
+            margin-top: 18px;
+            border-radius: 9px;
+            color: #413269;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 24px 5%;
+            background: var(--purple-dark);
+            color: #ffffff;
+        }
+
+        .footer p {
+            color: #e7ddff;
+            margin: 0;
+        }
+
+        @media (max-width: 760px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            .site-header {
+                padding: 14px 4%;
+            }
+
+            .brand-name {
+                font-size: 22px;
+            }
+
+            .container {
+                padding-top: 22px;
+            }
+
+            .intro,
+            .content-section {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+   
+
+    <!-- Editable banner filename; banner is full-width -->
+    <section class="banner">
+        <img src="Octafx Login.png" alt="OctaFX Login banner">
+    </section>
+
+    <main class="container">
+        <section class="intro">
+            <h1>OctaFX Login – Account Access Overview</h1>
+            <p>
+                OctaFX Login is the account access process for traders who want to open their Octa profile
+                and manage their trading accounts. The profile area brings account information and common
+                account-management options together, including creating accounts, viewing account details,
+                deposits, withdrawals, transfers, and password recovery. OctaFX Login is also a starting
+                point for accessing supported trading platforms and checking account settings.
+            </p>
+        </section>
+
+
+        <!-- Three feature cards -->
+        <section class="features">
+            <article class="feature-card">
+                <div class="feature-icon">◈</div>
+                <h3>Profile Access</h3>
+                <p>Use a registered email address and profile password to access account-management tools.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">▤</div>
+                <h3>Trading Accounts</h3>
+                <p>View account information, switch between available accounts, and manage account settings.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">↗</div>
+                <h3>Trading Platforms</h3>
+                <p>Access platform options such as OctaTrader, MetaTrader 4, and MetaTrader 5.</p>
+            </article>
+        </section>
+
+        <section class="content-section">
+            <h2>What Is OctaFX Login?</h2>
+            <p>
+                OctaFX Login refers to signing in to an Octa profile to view and manage your trading
+                environment. After profile access, users can check their account list, select an active
+                trading account, review account details, and find available management options. The profile
+                is designed to keep common account actions in one place rather than requiring separate
+                profile access for each account-management task.
+            </p>
+            <p>
+                The login details for the profile are different from some trading-terminal access details.
+                Depending on the platform, a trader may use the profile email and password or a trading
+                account number, password, and server information.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>How Profile Sign-In Works</h2>
+            <p>
+                To sign in to an Octa profile, users generally use the email address registered with the
+                profile and its password. Once access is available, the dashboard provides account-related
+                sections and options for managing the profile.
+            </p>
+            <ol class="steps">
+                <li>Open the official Octa account sign-in page in your browser.</li>
+                <li>Enter the email address used during registration.</li>
+                <li>Enter the profile password and complete any requested verification.</li>
+                <li>After signing in, review the dashboard and select the account or section you need.</li>
+            </ol>
+            <div class="note">
+                This page is informational only. It does not collect, store, or request login credentials.
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Account Management After Login</h2>
+            <p>
+                The Octa profile can provide access to different account-management features. Users may
+                create another trading account, review their existing accounts, select a primary account,
+                make deposits, request withdrawals, transfer funds between accounts, or review account
+                activity, depending on the options available in their profile.
+            </p>
+            <p>
+                Account details can include the account number, account type, currency, balance, and
+                other account information. The available options may vary according to the account and
+                platform selected.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>OctaTrader, MetaTrader 4 and MetaTrader 5</h2>
+            <p>
+                Octafx Login provides access to different trading platforms, including OctaTrader, MetaTrader 4,
+                and MetaTrader 5. OctaTrader is available through a web browser and the Octa trading app.
+                The web-based platform can be accessed from a signed-in profile by selecting an OctaTrader
+                account and choosing the trading option.
+            </p>
+            <p>
+                MetaTrader accounts use their own platform access details. When logging in through MT4 or
+                MT5, traders need to use the matching account credentials and the correct server details.
+                An account created for one platform may not work with another platform, so the platform
+                type should be checked before signing in.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Forgot Password or Login Details?</h2>
+            <p>
+                If a profile password is forgotten, the password-restoration process can be started using
+                the registered email address. A restoration message is sent to that email, allowing the
+                user to follow the recovery instructions and create a new password.
+            </p>
+            <p>
+                Trading-account passwords can have a separate recovery process. The account and password
+                type may need to be selected inside the profile before the restoration request is submitted.
+                Keep access to your registered email inbox so you can receive recovery instructions.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Common Login Issues</h2>
+            <p>
+                Octafx Login problems can occur when an email address, password, account number, or trading server
+                is entered incorrectly. A connection issue may also prevent a trading platform from
+                connecting. Check that the account details match the selected platform and confirm that
+                your internet connection is working before trying again.
+            </p>
+            <p>
+                If the issue continues, use the official account-recovery or customer-support process.
+                Avoid sharing passwords, verification codes, or private account details with anyone.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Using OctaFX Login on Mobile</h2>
+            <p>
+                Octafx Login account access can be used from supported mobile devices. Users may access their
+                profile through a mobile browser or the Octa trading app, while platform availability
+                depends on the trading account and device. The mobile account area can be used to review
+                accounts and find platform or account-management actions.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Keep Your Account Secure</h2>
+            <p>
+                Always confirm that you are using the genuine Octa sign-in environment before entering
+                account details. Use a unique password, keep verification codes private, and do not enter
+                credentials into unfamiliar pages or forms. If you suspect unauthorized access, follow the
+                provider's official security and support instructions.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>OctaFX Login — Informational overview of profile access and trading account features.</p>
+    </footer>
+
+</body>
+</html>
